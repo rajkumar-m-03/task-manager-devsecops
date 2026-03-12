@@ -1,0 +1,86 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    height:100vh;
+
+    background-image:url("images/bg2.jpg");
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    position:relative;
+}
+
+/* glass container */
+
+.container{
+    background:rgba(0,0,0,0.6);
+    padding:40px;
+    border-radius:12px;
+    width:350px;
+    text-align:center;
+    color:white;
+
+    animation:fadeIn 1s ease;
+}
+
+/* title */
+
+h1{
+    margin-bottom:20px;
+}
+
+/* input */
+
+input{
+    padding:10px;
+    width:200px;
+    border:none;
+    border-radius:6px;
+}
+
+/* button */
+
+button{
+    padding:10px 15px;
+    border:none;
+    border-radius:6px;
+    background:#ff4d6d;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#ff1e4d;
+}
+
+/* task list */
+
+ul{
+    list-style:none;
+    padding:0;
+    margin-top:20px;
+}
+
+li{
+    background:rgba(255,255,255,0.2);
+    margin:8px 0;
+    padding:8px;
+    border-radius:6px;
+}
+
+/* animation */
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
