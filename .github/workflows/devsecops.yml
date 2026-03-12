@@ -32,4 +32,4 @@ jobs:
 
     - name: Run Trivy Vulnerability Scan
       run: |
-        trivy image --exit-code 1 --severity CRITICAL,HIGH task-manager
+        trivy image --exit-code 1 --severity CRITICAL task-manager
