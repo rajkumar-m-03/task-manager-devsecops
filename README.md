@@ -98,7 +98,7 @@ docker tag task-manager orkayyy/task-manager
 docker push orkayyy/task-manager
 
 ## ☁️ Deployment on AWS EC2
-Connect to EC2
+### Connect to EC2
 ssh -i your-key.pem ubuntu@<EC2_PUBLIC_IP>
 
 ### Pull Image
