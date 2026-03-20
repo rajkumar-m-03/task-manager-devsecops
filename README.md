@@ -70,6 +70,7 @@ docker run -d -p 3000:3000 task-manager
 http://localhost:3000
 
 ## 🔐 Security Scanning (Trivy)
+### Scanning
 trivy image task-manager
 
 ### Trivy scans for:
