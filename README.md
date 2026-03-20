@@ -59,21 +59,20 @@ secure-devops-app/
 ## 🐳 Docker Setup
 
 ### Build Image
-
-```bash
 docker build -t task-manager .
+---
 
-Run Container
+### Run Container
 docker run -d -p 3000:3000 task-manager
 
-Access Application
+### Access Application
 
 http://localhost:3000
 
-🔐 Security Scanning (Trivy)
+### 🔐 Security Scanning (Trivy)
 trivy image task-manager
 
-Trivy scans for:
+### Trivy scans for:
 
 OS vulnerabilities
 
@@ -81,9 +80,9 @@ Dependency vulnerabilities
 
 ⚙️ CI Pipeline (GitHub Actions)
 
-The pipeline performs:
+### The pipeline performs:
 
-Docker image build
+### Docker image build
 
 Trivy vulnerability scan
 
@@ -91,21 +90,21 @@ Build validation
 
 Triggered on:
 git push
-📦 DockerHub Integration
+### 📦 DockerHub Integration
 docker tag task-manager orkayyy/task-manager
 docker push orkayyy/task-manager
 
-☁️ Deployment on AWS EC2
+### ☁️ Deployment on AWS EC2
 Connect to EC2
 ssh -i your-key.pem ubuntu@<EC2_PUBLIC_IP>
 
-Pull Image
+### Pull Image
 docker pull orkayyy/task-manager
 
-Run Container
+### Run Container
 docker run -d -p 3000:3000 orkayyy/task-manager
 
-Access Application
+### Access Application
 
 http://<EC2_PUBLIC_IP>:3000
 
@@ -138,7 +137,7 @@ http://<EC2_PUBLIC_IP>:3000
 ### EC2 Deployment
 ![EC2](docs/screenshots/ec2-app.png)
 
-📊 Results
+### 📊 Results
 
 Automated Docker build and deployment
 
@@ -148,23 +147,19 @@ Reduced manual security effort
 
 Faster deployment
 
-🎯 Conclusion
+### 🎯 Conclusion
 
 This project demonstrates how DevSecOps practices enable secure and automated deployments using containerization, CI pipelines, and cloud infrastructure.
 
-🚀 How to Re-run Project
+### 🚀 How to Re-run Project
 Locally
 docker build -t task-manager .
 docker run -d -p 3000:3000 task-manager
 On EC2
 docker pull orkayyy/task-manager
 docker run -d -p 3000:3000 orkayyy/task-manager
-📬 Author
+
+###### 📬 Author
 
 Rajkumar
 M.Tech – Cloud Computing
-
-⭐ Notes
-
-Stop EC2 instance to avoid charges
-mkdir -p docs/screenshots
