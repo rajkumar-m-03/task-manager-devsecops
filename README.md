@@ -91,8 +91,10 @@ Build validation
 
 Triggered on:
 git push
-### 📦 DockerHub Integration
+## 📦 DockerHub Integration
+### DockerHub tag
 docker tag task-manager orkayyy/task-manager
+### DockerHub push
 docker push orkayyy/task-manager
 
 ## ☁️ Deployment on AWS EC2
