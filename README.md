@@ -114,31 +114,31 @@ http://<EC2_PUBLIC_IP>:3000
 ## 📸 Screenshots
 
 ### Project Structure
-![Project](docs/screenshots/project structure.png)
+![Project](docs/screenshots/project-structure.png)
 
 ### Dockerfile
 ![Dockerfile](docs/screenshots/dockerfile.png)
 
 ### Docker Build
-![Build](docs/screenshots/docker build.png)
+![Build](docs/screenshots/docker-build.png)
 
 ### Running Container
-![Running](docs/screenshots/docker running.png)
+![Running](docs/screenshots/docker-running.png)
 
 ### Application (Local)
 ![App](docs/screenshots/app.png)
 
 ### Trivy Scan
-![Trivy](docs/screenshots/trivy scan.png)
+![Trivy](docs/screenshots/trivy-scan.png)
 
 ### GitHub Actions
-![CI](docs/screenshots/github actions.png)
+![CI](docs/screenshots/github-actions.png)
 
 ### DockerHub Image
 ![DockerHub](docs/screenshots/dockerhub.png)
 
 ### EC2 Deployment
-![EC2](docs/screenshots/ec2 app.png)
+![EC2](docs/screenshots/ec2-app.png)
 
 ### 📊 Results
 
