@@ -60,7 +60,7 @@ secure-devops-app/
 
 ### Build Image
 docker build -t task-manager .
----
+
 
 ### Run Container
 docker run -d -p 3000:3000 task-manager
