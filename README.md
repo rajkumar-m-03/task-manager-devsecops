@@ -69,7 +69,7 @@ docker run -d -p 3000:3000 task-manager
 
 http://localhost:3000
 
-### 🔐 Security Scanning (Trivy)
+## 🔐 Security Scanning (Trivy)
 trivy image task-manager
 
 ### Trivy scans for:
@@ -94,7 +94,7 @@ git push
 docker tag task-manager orkayyy/task-manager
 docker push orkayyy/task-manager
 
-### ☁️ Deployment on AWS EC2
+## ☁️ Deployment on AWS EC2
 Connect to EC2
 ssh -i your-key.pem ubuntu@<EC2_PUBLIC_IP>
 
@@ -111,31 +111,31 @@ http://<EC2_PUBLIC_IP>:3000
 ## 📸 Screenshots
 
 ### Project Structure
-![Project](docs/screenshots/project-structure.png)
+![Project](docs/screenshots/project structure.png)
 
 ### Dockerfile
 ![Dockerfile](docs/screenshots/dockerfile.png)
 
 ### Docker Build
-![Build](docs/screenshots/docker-build.png)
+![Build](docs/screenshots/docker build.png)
 
 ### Running Container
-![Running](docs/screenshots/docker-running.png)
+![Running](docs/screenshots/docker running.png)
 
 ### Application (Local)
 ![App](docs/screenshots/app.png)
 
 ### Trivy Scan
-![Trivy](docs/screenshots/trivy-scan.png)
+![Trivy](docs/screenshots/trivy scan.png)
 
 ### GitHub Actions
-![CI](docs/screenshots/github-actions.png)
+![CI](docs/screenshots/github actions.png)
 
 ### DockerHub Image
 ![DockerHub](docs/screenshots/dockerhub.png)
 
 ### EC2 Deployment
-![EC2](docs/screenshots/ec2-app.png)
+![EC2](docs/screenshots/ec2 app.png)
 
 ### 📊 Results
 
